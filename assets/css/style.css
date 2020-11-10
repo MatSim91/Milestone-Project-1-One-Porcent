@@ -1,0 +1,79 @@
+/*---------------------------- Generic ----------------------------*/
+
+b {
+    background-color: #008f95ff;
+}
+
+h1 {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+}
+
+/*---------------------------- Navigation Bar ----------------------------*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 5vh;
+}
+
+.navbar-logo {
+    font: Fresca;
+    color: white;
+    font-size: 3vh;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+
+/*---------------------------- Hero Image ----------------------------*/
+
+.hero-image {
+    height: 100vh;
+    background: url('../images/kids2.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*---------------------------- Facts Section ----------------------------*/
+
+.facts-div {
+    height: 40vh;
+    background-color: #80d6e6;
+    text-align: center;
+    padding: 50px;
+}
+
+.col-sm {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+}
+
+.next-page-div {
+    background-color: #80d6e6;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.fa-arrow:hover {
+    color: red !important;
+}

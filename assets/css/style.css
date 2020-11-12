@@ -31,6 +31,24 @@ hr {
     text-decoration: none;
     color: white !important;
     font-size: 1.5vh;
+    margin-left: 10px;
+}
+
+.fa-bars {
+    color: white !important;
+}
+
+.collapse {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 15px;
+}
+
+.dropdown-menu {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dropdown-item {
+    color: white;
 }
 
 /*---------------------------- Hero Image ----------------------------*/
@@ -59,13 +77,6 @@ hr {
 
 /*---------------------------- Facts Section ----------------------------*/
 
-.facts-div {
-    height: 40vh;
-    background-color: #80d6e6;
-    text-align: center;
-    padding: 50px;
-}
-
 .col-sm {
     max-width: 400px;
     margin: auto;
@@ -90,7 +101,11 @@ hr {
 .fact {
     background-color: white;
     padding: 50px 50px 120px 50px;
-    margin: 20px auto;
+    margin: 20px;
+}
+
+.facts-icons {
+    padding-left: 10px;
 }
 /*---------------------------- Contact Form Page ----------------------------*/
 
@@ -111,16 +126,16 @@ hr {
 
 /*---------------------------- Footer ----------------------------*/
 
-.footer {
+/*.footer {
   position: relative;
   text-align: center;
   left: 0;
   bottom: 0;
   height: 50px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  background-color: rgba(128, 214, 230, 0.8);
   color: white;
-}
+}*/
 
 .social-media {
     
@@ -152,7 +167,7 @@ hr {
     color: #FF0000;
 }
 
-/*---------------------------- Testing Interactive ----------------------------*/
+/*---------------------------- Facts Interactivity ----------------------------*/
 
 /* Outline Out */
 .hvr-outline-out {
@@ -239,3 +254,17 @@ hr {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+/*---------------------------- Media Queries ----------------------------*/
+
+@media only screen and (max-width: 575px) {
+    .navbar {
+        height: 65px;
+    }
+
+    .dropdown-menu {
+    background-color: rgba(0,0,0,0.001);
+}
+
+}
+

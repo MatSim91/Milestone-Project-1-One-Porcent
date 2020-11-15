@@ -7,6 +7,7 @@ body {
 h1 {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     color: black;
+    font-family: Asap;
 }
 
 hr {
@@ -20,9 +21,9 @@ hr {
 }
 
 .navbar-logo {
-    font: Fresca;
+    font-family: Fresca;
     color: white;
-    font-size: 3vh;
+    font-size: 4vh;
     text-decoration: none;
     letter-spacing: 3px;
 }
@@ -75,7 +76,41 @@ hr {
     background-color: rgba(0, 0, 0, 0);
 }
 
+/*---------------------------- ONE% Section ----------------------------*/
+
+.container-wrapper {
+    background-color: #57BC90ff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.onep-div {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.onep {
+    background-color: white;
+    padding: 50px 50px 120px 50px;
+    margin: 20px;
+    min-width: 43vw;
+    font-size: 25px;
+    font: Asap;
+    border-radius: 25px;
+}
+
+.onepspan {
+    font-family: Fresca;
+    color: #57BC90ff;
+    font-weight: bold;
+    font-size: 35px;
+}
 /*---------------------------- Facts Section ----------------------------*/
+
+.facts-div {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
 
 .col-sm {
     max-width: 400px;
@@ -124,6 +159,15 @@ hr {
     background-color:  white;
 }
 
+/*---------------------------- Water Project Page ----------------------------*/
+
+.water-image {
+    background: url('../images/waterproj2.jpg') no-repeat center center;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
 /*---------------------------- Footer ----------------------------*/
 
 /*.footer {
@@ -177,11 +221,12 @@ hr {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
+  border-radius: 25px;
 }
 .hvr-outline-out:before {
   content: '';
   position: absolute;
-  border: #e1e1e1 solid 4px;
+  border: #57BC90ff solid 4px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -190,6 +235,7 @@ hr {
   transition-duration: 0.3s;
   -webkit-transition-property: top, right, bottom, left;
   transition-property: top, right, bottom, left;
+  border-radius: 25px;
 }
 .hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
   top: -8px;
@@ -267,4 +313,3 @@ hr {
 }
 
 }
-

@@ -5,9 +5,10 @@ body {
 }
 
 h1 {
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    color: black;
-    font-family: Asap;
+    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+    color: white;
+    font-family: Noto Sans JP;
+    font-size: 60px;
 }
 
 hr {
@@ -73,7 +74,11 @@ hr {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.author {
+    color: white;
 }
 
 /*---------------------------- ONE% Section ----------------------------*/
@@ -121,7 +126,7 @@ hr {
 .next-page-div {
     background-color: #80d6e6;
     text-align: center;
-    padding: 50px;
+    padding: 150px;
     
 }
 
@@ -168,6 +173,57 @@ hr {
     width: auto;
     height: auto;
 }
+
+.water {
+    max-width: 35% !important;
+    min-width: 20% !important;
+    float: right;
+    margin: 0px 0px 15px 15px;
+    padding: 40px;
+    height: auto;
+}
+
+.project {
+    float: right;
+}
+
+.water-div {
+    padding: 150px 0 150px 0;
+}
+
+.btn-donate {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    min-width: 110px;
+    padding: 20px;
+}
+
+.btn-donate:hover {
+    color: black !important;
+    background-color: white !important;
+    padding: 20px;
+}
+
+.center {
+    margin: auto !important;
+}
+
+.blue-background {
+    background-color: #80d6e6 !important;
+}
+
+.donate-image {
+    border-radius: 25px;
+    border: #57BC90ff solid 4px;
+}
+
+.projects-content {
+    background-color: white;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 20px;
+}
+
 /*---------------------------- Footer ----------------------------*/
 
 /*.footer {
@@ -210,6 +266,14 @@ hr {
 .fa-youtube:hover {
     color: #FF0000;
 }
+
+/* .footer-fixed {
+  position: fixed !important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+} */
 
 /*---------------------------- Facts Interactivity ----------------------------*/
 
@@ -310,6 +374,10 @@ hr {
 
     .dropdown-menu {
     background-color: rgba(0,0,0,0.001);
-}
+
+    }
+
+@media only screen and (max-width: 991px) {
+   
 
 }

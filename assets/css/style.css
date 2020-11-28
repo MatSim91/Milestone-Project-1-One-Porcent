@@ -227,19 +227,19 @@ hr {
 /*---------------------------- Footer ----------------------------*/
 
 /*.footer {
-  position: relative;
-  text-align: center;
-  left: 0;
-  bottom: 0;
-  height: 50px;
-  width: 100vw;
-  background-color: rgba(128, 214, 230, 0.8);
-  color: white;
-}*/
+  position: fixed !important;
+  text-align: center !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  height: 50px !important;
+  width: 100vw !important;
+  background-color: rgba(128, 214, 230, 0.8) !important;
+  color: white !important;
+}
 
 .social-media {
     
-}
+}*/
 
 .media-icon {
     color: white;

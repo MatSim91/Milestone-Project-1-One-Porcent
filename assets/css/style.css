@@ -83,15 +83,16 @@ hr {
 
 /*---------------------------- ONE% Section ----------------------------*/
 
-.container-wrapper {
+/*.container-wrapper {
     background-color: #57BC90ff;
     padding-top: 80px;
     padding-bottom: 80px;
-}
+}*/
 
 .onep-div {
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: #57BC90ff;
 }
 
 .onep {
@@ -148,7 +149,7 @@ hr {
 
 .fact {
     background-color: white;
-    padding: 50px 50px 120px 50px;
+    padding: 50px 50px 100px 50px;
     margin: 20px;
 }
 
@@ -160,7 +161,7 @@ hr {
 .form {
     max-width: 1000px;
     margin: auto;
-    padding: 80px;
+    padding: 120px 80px 370px 80px;
 }
 
 .btn-outline-dark {
@@ -377,10 +378,10 @@ hr {
   transform: scaleX(1);
 }
 
-/*---------------------------- Testing ----------------------------*/
+/*---------------------------- Why Donate Page ----------------------------*/
 
 
-.test123 {
+/*.test123 {
     border: solid 1px red;
     background-color: yellow;
     border-top: 100px;
@@ -391,6 +392,11 @@ hr {
 
 .row123 {
     padding-top: 150px;
+}*/
+
+.whydonate-title {
+    padding: 150px 5px 50px 5px;
+    text-align: center;
 }
 
 .flip-card {
@@ -420,6 +426,7 @@ hr {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 25px;
+  
 }
 
 .flip-card-front {
@@ -431,6 +438,16 @@ hr {
   background-color: white;
   color: black;
   transform: rotateY(180deg);
+}
+
+.why-donate-card {
+    margin: 4vw;
+    padding: 5px;
+}
+
+.flip-card-back {
+    padding: 20px 40px 40px 40px;
+    border: #57BC90ff solid 4px;
 }
 
 /*---------------------------- Media Queries ----------------------------*/

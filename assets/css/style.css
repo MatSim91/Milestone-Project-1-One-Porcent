@@ -275,7 +275,7 @@ hr {
     left: -8px;
 }
 
-/*---------------------------- Why Donate Page ----------------------------*/
+/*---------------------------- Why Donate Cards Section Page ----------------------------*/
 
 .whydonate-title {
     padding: 150px 5px 50px 5px;
@@ -453,7 +453,7 @@ hr {
     }
 
     .fact2 {
-    padding: 50px 18px 100px 18px;
+        padding: 50px 18px 100px 18px;
     }
 }
 
@@ -507,10 +507,10 @@ hr {
     }
 
     .hero-phrase {
-    font-size: 5vw;
+        font-size: 5vw;
     }
 
     .author {
-    font-size: 3vw;
+        font-size: 3vw;
     }
 }

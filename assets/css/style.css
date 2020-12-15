@@ -138,6 +138,10 @@ hr {
     color: white;
 }
 
+.next-page {
+    display: block;
+}
+
 /*---------------------------- Hero Image ----------------------------*/
 
 .hero-image {
@@ -171,10 +175,14 @@ hr {
 }
 
 .hero-phrase {
+    font-family: Noto Sans KR;
+    font-weight: 400;
     font-size: 3vw;
 }
 
 .author {
+    font-family: Noto Sans KR;
+    font-weight: 400;
     color: white;
     font-size: 1vw;
 }
@@ -274,6 +282,11 @@ hr {
 .whydonate-title {
     padding: 150px 5px 50px 5px;
     text-align: center;
+}
+
+.fix-margin {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 .flip-card {

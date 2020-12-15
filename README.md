@@ -1,8 +1,10 @@
 <h1 align="center">Milestone Project 1 - ONE%</h1>
 
-[Click here to view the live project.](https://matsim91.github.io/Milestone-Project-1-One-Porcent)
+![ONE% Mockup](project/onep-mockup.JPG)
 
-One% is a charity project. The first main purpose is to make people aware that everyone can donate a really small portion of their income (1%) and this would still make a great difference in the lives of many childrens and adults in poor condition. The second main purpose is to re-direct potential donors to 3 non-profit organization where they can donate directly to these organizations.
+[ :link: Click here to view the live project :link:](https://matsim91.github.io/Milestone-Project-1-One-Porcent)
+
+One% is a charity project. The first main purpose is to make people aware that everyone can donate a really small portion of their income (like one%) and this would still make a great difference in the lives of many childrens and adults in poor condition. The second main purpose is to re-direct potential donors to three non-profit organization where they can donate directly to these organizations.
 
 ### Table Of Contents
 
@@ -33,21 +35,25 @@ One% is a charity project. The first main purpose is to make people aware that e
 
     -   #### First Time Visitor Goals
 	1. Quickly understand the main objective of the website and what it offers.
-	2. Navigate naturally and easily through the website different sections even if the user is not computer-savy.
+	2. Navigate naturally and easily through the website different sections (using the navbar to go to a specific page or using the arrow on the bottom of the page to go through a continuous flow) even if the user is not computer-savy.
 	3. Get interested about charity and look for further information within the website.
 
 
     -   #### Returning Visitor Goals
-	1. Quickly remember the website interface and how the website flow works.
-	2. 
+	1. Be familiarized with website interface and how the website flow works.
+	2. Motivate returning visitor to donate again.
+    3. As a returning user he can use the navbar to go to the specific page he is looking for.
 
     -   #### Frequent User Goals
     1. Navigate the website looking for news updates regarding the different non-profit organizations working in Africa.
-    2. 
+    2. Motivate frequent user to continue donating.
+    3. Present new content to motivate frequent user to come back.
 
 -   ### Design
     -   #### Colour Scheme
-	- The four main colors used are blue, green, black and white. I choose the colors pallete that are more alive and better represent happiness and childhood.
+	- The four main colors used are blue, green, black and white. I choose the colors pallete that are more alive and better represent happiness and childhood for the body. For the navbar and footer I choose a more neutral color for balance.
+
+        ![Color Palette](project/color-palette.JPG)
 
     -   #### Typography
 	- For the logo, I choose a more happy font to better show the purpose of the website (by donating and bringing happiness to kids). The font used for the logo was the "Fresca" font designed by Fontstage.
@@ -55,8 +61,16 @@ One% is a charity project. The first main purpose is to make people aware that e
 
     -   #### Imagery
 	- The hero image was carefully choosen to give life to the website and really stand out on the homepage. It was intended to show the happiness and hope that these kids have even living in poor conditions. Happiness is simple, happiness is being grateful for what we have, this is the intent of the images spread across this website and also the intent of the content.
-
+    - The remaining images were all choosen for the vivid contrast they have and to also show gratitude and happeniness.
 *   ### Wireframes
+
+    - Home Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/assets/wireframes/home.jpg)
+
+    - Why Donate? Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/assets/wireframes/why-donate.jpg)
+
+    - Donate! Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/assets/wireframes/donate.jpg)
+
+    - Contact Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/assets/wireframes/contact.jpg)
 
 
 ## Features
@@ -155,8 +169,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Hover.css for interactive effects (https://ianlunn.github.io/Hover/)
 
-- Instagram Gradient Hover (https://stackoverflow.com/questions/38507734/fontawesome-instagram-icon-colorized/49659118#49659118)
-
 - Flip cards (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card)
 
 ### Code
@@ -176,6 +188,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My mentor Akshat for all his help and ideas.
 
 -   Slack channel peer-code-review for feedback.

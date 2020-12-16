@@ -2,9 +2,9 @@
 
 ![ONE% Mockup](project/onep-mockup.JPG)
 
-[ :link: Click here to view the live project :link:](https://matsim91.github.io/Milestone-Project-1-One-Porcent)
+[Click here to view the live project :link:](https://matsim91.github.io/Milestone-Project-1-One-Porcent)
 
-One% is a charity project. The first main purpose is to make people aware that everyone can donate a really small portion of their income (like one%) and this would still make a great difference in the lives of many childrens and adults in poor condition. The second main purpose is to re-direct potential donors to three non-profit organization where they can donate directly to these organizations.
+ONE% is a charity project. The first main purpose is to make people aware that everyone can donate a really small portion of their income and this would still make a great difference in the lives of many childrens and adults in poor condition. The second main purpose is to re-direct potential donors to three non-profit organization where they can donate directly to these organizations.
 
 ### Table Of Contents
 
@@ -41,17 +41,17 @@ One% is a charity project. The first main purpose is to make people aware that e
 
     -   #### Returning Visitor Goals
 	1. Be familiarized with website interface and how the website flow works.
-	2. Motivate returning visitor to donate again.
-    3. As a returning user he can use the navbar to go to the specific page he is looking for.
+	2. Get motivated and make a new donation to a new institution.
+    3. Use the navbar to go to the specific page I am looking for as I already know the website.
 
     -   #### Frequent User Goals
     1. Navigate the website looking for news updates regarding the different non-profit organizations working in Africa.
     2. Motivate frequent user to continue donating.
-    3. Present new content to motivate frequent user to come back.
+    3. Check on new content and
 
 -   ### Design
     -   #### Colour Scheme
-	- The four main colors used are blue, green, black and white. I choose the colors pallete that are more alive and better represent happiness and childhood for the body. For the navbar and footer I choose a more neutral color for balance.
+	- The four main colors used are Middle Blue, Ocean Green, Black and White. I choose the colors pallete that are more alive and better represent happiness and childhood for the body. For the navbar and footer I choose a more neutral color for balance.
 
         ![Color Palette](project/color-palette.JPG)
 

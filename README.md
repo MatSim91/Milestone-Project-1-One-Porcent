@@ -6,7 +6,7 @@
 
 ONE% is a charity project. The first main purpose is to make people aware that everyone can donate a really small portion of their income and this would still make a great difference in the lives of many childrens and adults in poor condition. The second main purpose is to re-direct potential donors to three non-profit organization where they can donate directly to these organizations.
 
-### Table Of Contents
+# Table Of Contents
 
 1. [User Experience (UX)](#user-experience)
     - [User stories](#user-stories)
@@ -29,53 +29,63 @@ ONE% is a charity project. The first main purpose is to make people aware that e
 
 
 
-## User Experience
+# User Experience
 
--   ### User stories
+-   ## User stories
 
-    -   #### First Time Visitor Goals
-	1. Quickly understand the main objective of the website and what it offers.
-	2. Navigate naturally and easily through the website different sections (using the navbar to go to a specific page or using the arrow on the bottom of the page to go through a continuous flow) even if the user is not computer-savy.
-	3. Get interested about charity and look for further information within the website.
+    -   ### First Time Visitor Goals
+        1. Quickly understand the main objective of the website and what it offers.
+        2. Navigate naturally and easily through the website different pages (using the navbar to go to a specific page or using the arrow on the bottom of the page to navigate entire website in a continuous flow) even if the user is not computer-savy.
+        3. Get interested about charity and look for further information within the website.
+        4. Understand the powerful outcomes that a simple and small donation can bring to poor kids.
 
 
-    -   #### Returning Visitor Goals
-	1. Be familiarized with website interface and how the website flow works.
-	2. Get motivated and make a new donation to a new institution.
-    3. Use the navbar to go to the specific page I am looking for as I already know the website.
+    -   ### Returning Visitor Goals
+        1. Be motivated to get in touch with ONE% for more information.
+        2. Get motivated and make a new donation to a new institution.
+        3. Use the navbar to go to the specific page I am looking for as I already know the website.
 
-    -   #### Frequent User Goals
-    1. Navigate the website looking for news updates regarding the different non-profit organizations working in Africa.
-    2. Motivate frequent user to continue donating.
-    3. Check on new content and
+    -   ### Frequent User Goals
+        1. Navigate the website looking for news updates regarding the different non-profit organizations working in Africa.
+        2. Be motivated to keep donating and contacting ONE% looking for partnerships.
+        3. Check on new content, new donation pages and news about charity.
 
--   ### Design
-    -   #### Colour Scheme
-	- The four main colors used are Middle Blue, Ocean Green, Black and White. I choose the colors pallete that are more alive and better represent happiness and childhood for the body. For the navbar and footer I choose a more neutral color for balance.
+-   ## Design
+    -   ### Colour Scheme
+	    - I have used [Coolors](#https://coolors.co/80d6e6-57bc90-000000-ffffff) to choose the color pallete.
+        - The four main colors used are Middle Blue (#80D6E6), Ocean Green (#57BC90), Black (#000000) and White (#FFFFFF). 
+        - I choose the colors pallete that are more alive and better represent happiness and childhood for the body. For the navbar and footer I choose a more neutral color for balance and to not take the focus of the main content which is the body of the website.
 
         ![Color Palette](project/color-palette.JPG)
 
-    -   #### Typography
-	- For the logo, I choose a more happy font to better show the purpose of the website (by donating and bringing happiness to kids). The font used for the logo was the "Fresca" font designed by Fontstage.
+    -   ### Typography
+	    - For the logo, I choose the "Fresca" font to give a very happy looking and better show the purpose of the website.
+        - For the quoting phrase on the hero image I choose the "Noto Sans KR" font, a bit lighter then the logo but not so light in order to not be difficult to read and not dissapear on the hero image.
+        - For the H2 headers I choose the "Livvic" font to give a good highlight and still maintaining a happy atmosphere.
+        - For the content beneth the H2 headings I have used a more default font: "Segoe UI" to focus on readability.
+
+    -   ### Imagery
+        - All the images on the site were choosen to bring happiness. I focused more on what the outcomes of charity and donation can bring to the kids instead of showing their poor and sad condition. Hopefully by showing the outcome I can motivate people to donate and understanding the power and the beautiful results that a small donation can bring.
+	    - The hero image was carefully choosen to give life to the website and really stand out on the homepage. It was intended to show the happiness and hope that these kids have even living in poor conditions. Happiness is simple, happiness is being grateful for what we have, this is the intent of the images spread across this website and also the intent of the content.
+        - The remaining images were choosen due to the vivid contrast they bring and to also show gratitude and happeniness.
+        - To avoid images being too heavy to load I have compressed all images using [TinyPNG](https://tinypng.com/) which also compress JPEG images.
+
+*   ## Wireframes
+
+    - The wireframe was developed using [balsamiq](https://balsamiq.com/).
+
+    - Home Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/project/wireframes/home.jpg)
+
+    - Why Donate? Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/project/wireframes/why-donate.jpg)
+
+    - Donate! Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/project/wireframes/donate.jpg)
+
+    - Contact Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/project/wireframes/contact.jpg)
 
 
-    -   #### Imagery
-	- The hero image was carefully choosen to give life to the website and really stand out on the homepage. It was intended to show the happiness and hope that these kids have even living in poor conditions. Happiness is simple, happiness is being grateful for what we have, this is the intent of the images spread across this website and also the intent of the content.
-    - The remaining images were all choosen for the vivid contrast they have and to also show gratitude and happeniness.
-*   ### Wireframes
+# Features
 
-    - Home Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/assets/wireframes/home.jpg)
-
-    - Why Donate? Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/assets/wireframes/why-donate.jpg)
-
-    - Donate! Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/assets/wireframes/donate.jpg)
-
-    - Contact Page Wireframe - [View](https://github.com/MatSim91/Milestone-Project-1-One-Porcent/blob/master/assets/wireframes/contact.jpg)
-
-
-## Features
-
-- Burger nav bar
+- Burger navbar - Condense the menu when the viewport size is smaller than 575px 
 
 - Drop down menu using bootstrap library and Popper.js library
 
@@ -87,7 +97,7 @@ ONE% is a charity project. The first main purpose is to make people aware that e
 
 - Interactive Flip Cards
 
-## Technologies Used
+# Technologies Used
 
 Brief overview of the languages, frameworks, and other tools I've used on this project:
 
@@ -104,14 +114,14 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
    - Used for open/close effect on mobile navbar, as well as the fancybox implementation.
 
 - [Font Awesome 5](https://fontawesome.com)
-   - Use of social media icons.
+   - Used for  of social media icons.
 
-## Languages Used
+# Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-## Frameworks, Libraries and Programs Used
+# Frameworks, Libraries and Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
@@ -132,14 +142,16 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 9. [Popper.js:](https://popper.js.org/)
     - Popper was used to create the Dropdown menu in the navbar.
 
-## Testing
+# Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- The website was tested in Google Chrome, Microsoft Edge, Mozilla Firefox, both on Windows and Mac OS. 
+
+- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]
 
-### Testing User Stories
+## Testing User Stories
 
 -   #### First Time Visitor Goals
 
@@ -150,28 +162,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   #### Frequent User Goals
 
 
-### Further Testing
+## Further Testing
 
 
-### Known Bugs
+## Known Bugs
 
 
-## Deployment
+# Deployment
 
-### GitHub Pages
+## GitHub Pages
 
-### Forking the GitHub Repository
+## Forking the GitHub Repository
 
 
-## Credits
-
-- Font border for the H1 heading (https://stackoverflow.com/questions/2570972/css-font-border)
+# Credits
 
 - Hover.css for interactive effects (https://ianlunn.github.io/Hover/)
 
 - Flip cards (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card)
 
-### Code
+## Code
 
 -   The full-screen hero image code came from https://unsplash.com/
 
@@ -179,14 +189,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   Color Scheme was choosen from https://coolors.co/
 
-### Content
+## Content
 
 
-### Media
+## Media
 
 -   Images were taken from free images source websites https://unsplash.com/ and https://pixabay.com
 
-### Acknowledgements
+## Acknowledgements
 
 -   My mentor Akshat for all his help and ideas.
 

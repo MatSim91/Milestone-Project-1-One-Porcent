@@ -18,7 +18,6 @@ ONE% is a charity project. The first main purpose is to make people aware that e
 5.  [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 6.  [Testing](#testing)
     - [Testing User Stories](#testing-user-stories)
-    - [Known Bugs](#known-bugs)
 7. [Deployment](#deployment)
 8. [Credits](#credits)
     - [Code](#code)
@@ -196,9 +195,6 @@ A brief overview of the languages, frameworks, and other tools I've used on this
     1. Using the top navbar the Frequent Users can go directly to the Donate page to check on new updates of the non-profity organizations working in Africa.
     2. We want to motivate Frequent Users to keep donating and to check on a new organization he didn't donate to yet by checking the Donate page and the organizations description.
     3. To keep a Frequent User interested in the website we want to have the website always updated with new content and with new organizations on the Donate page.
-
-## Known Bugs
-
 
 # Deployment
 

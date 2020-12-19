@@ -17,39 +17,35 @@
 <body>
     <header>
 
-        <!-- Navigation Bar Imported from MD Bootstrap and Customized -->
-        <nav class="navbar navbar-expand-sm fixed-top">
-            <a class="navbar-brand navbar-logo" href="index.html">ONE%</a>
-            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="dark-blue-text">
-                    <i class="fas fa-bars fa-2x"></i>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <!-- Navigation Bar Imported from Bootstrap 4 Documentation  -->
+         <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Whiskey Drop</a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link hvr-fade" href="index.html">Home <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-fade" href="why-donate.html">Why Donate?</a>
-                    </li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle hvr-fade" href="#" id="navbardrop" data-toggle="dropdown">
-                            Donate!
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="water-project.html">The Water Project</a>
-                            <a class="dropdown-item" href="fraternity.html">Fraternity Without Borders</a>
-                            <a class="dropdown-item" href="save-children.html">Save The Children</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Whiskeys
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Irish</a>
+                            <a class="dropdown-item" href="#">Scotch</a>
+                            <a class="dropdown-item" href="#">Japanese</a>
+                            <a class="dropdown-item" href="#">American</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-fade" href="contact.html">Contact</a>
-                    </li>
+
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
                 </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+                <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
             </div>
         </nav>
     </header>
